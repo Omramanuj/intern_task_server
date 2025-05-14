@@ -1,0 +1,35 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output folders
+/bin/
+/build/
+/dist/
+
+# Dependency directories
+/vendor/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go modules
+go.sum
+
+# Env files
+.env
+.env.*
+
+# Logs
+*.log
