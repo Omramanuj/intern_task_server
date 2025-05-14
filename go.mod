@@ -1,6 +1,6 @@
 module github.com/Omramanuj/intern_task_server
 
-go 1.24.1
+go 1.24
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.6
