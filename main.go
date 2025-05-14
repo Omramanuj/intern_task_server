@@ -25,10 +25,10 @@ func main() {
 		ExposeHeaders:    "Upgrade",
 	}))
 
-	err := godotenv.Load(".env")
-	if err != nil {
-		log.Fatalf("Error loading .env file")
-	}
+	godotenv.Load(".env")
+	// if err != nil {
+	// 	log.Fatalf("Error loading .env file")
+	// }
 
 	db := database.ConnectDB()
 	defer func() {

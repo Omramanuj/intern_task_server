@@ -24,8 +24,7 @@
 .DS_Store
 Thumbs.db
 
-# Go modules
-go.sum
+
 
 # Env files
 .env
